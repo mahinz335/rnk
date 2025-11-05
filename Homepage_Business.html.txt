@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আপনার ব্যবসার নাম - হোমপেজ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            position: relative;
+            background: url('path_to_image1.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .about, .services, .social {
+            background-color: #fff;
+        }
+        .about img, .services img, .social img {
+            width: 80%;
+            max-width: 300px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .cta-button {
+            background-color: #008CBA;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- হিরো সেকশন (ব্যানার) -->
+    <header>
+        <h1>স্বাগতম [আপনার ব্যবসার নাম]</h1>
+        <p>আপনার বিশ্বস্ত অংশীদার, গুণগতমানের ফার্নিচার এবং ট্রাভেল সার্ভিসে</p>
+    </header>
+
+    <!-- আমাদের সম্পর্কে সেকশন -->
+    <section class="about section">
+        <h2>আমাদের সম্পর্কে</h2>
+        <img src="path_to_image2.jpg" alt="মালিকের ছবি">
+        <p>আমরা উচ্চমানের ফার্নিচার এবং অসাধারণ ট্রাভেল সার্ভিস প্রদান করি। আমাদের লক্ষ্য আপনাকে একটি সহজ এবং সুবিধাজনক অভিজ্ঞতা প্রদান করা।</p>
+    </section>
+
+    <!-- সার্ভিস সেকশন -->
+    <section class="services section">
+        <h2>আমাদের সার্ভিস</h2>
+        <img src="path_to_image3.jpg" alt="সার্ভিস ছবি">
+        <p>স্টাইলিশ ফার্নিচার থেকে সম্পূর্ণ ট্রাভেল প্যাকেজ পর্যন্ত, আমরা আপনার সব প্রয়োজন মেটানোর জন্য একটি সমাধান প্রদান করি।</p>
+        <a href="services.html" class="cta-button">সার্ভিস দেখুন</a>
+    </section>
+
+    <!-- সামাজিক মিডিয়া সেকশন -->
+    <section class="social section">
+        <h2>আমাদের সাথে যোগ দিন</h2>
+        <img src="path_to_image4.jpg" alt="লাইফস্টাইল ছবি">
+        <p>পণ্য, সার্ভিস এবং প্রচারণার সর্বশেষ আপডেটের জন্য আমাদের সাথে যোগাযোগ রাখুন। আমাদের সোশ্যাল মিডিয়াতে যোগ দিন।</p>
+        <a href="https://www.instagram.com/yourprofile" class="cta-button" target="_blank">ইন্সটাগ্রামে ফলো করুন</a>
+    </section>
+
+    <!-- যোগাযোগ সেকশন -->
+    <section class="contact section">
+        <h2>যোগাযোগ করুন</h2>
+        <p>যদি আপনার কোনো প্রশ্ন থাকে বা সহায়তার প্রয়োজন হয়, তবে আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না। আমরা আপনার সহায়তার জন্য প্রস্তুত।</p>
+        <a href="contact.html" class="cta-button">যোগাযোগ করুন</a>
+    </section>
+
+    <!-- ফুটার সেকশন -->
+    <footer>
+        <p>&copy; 2025 আপনার ব্যবসার নাম। সকল অধিকার সংরক্ষিত।</p>
+    </footer>
+
+</body>
+</html>
